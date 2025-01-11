@@ -16,7 +16,7 @@ export const Contact = () => {
               <Mail className="w-8 h-8 text-sf-primary" />
               <div>
                 <p className="font-semibold">Email</p>
-                <p className="text-gray-600">contact@acmesalesforce.com</p>
+                <p className="text-gray-600">tomschira@yahoo.com</p>
               </div>
             </a>
             <a
@@ -26,10 +26,10 @@ export const Contact = () => {
               <Phone className="w-8 h-8 text-sf-primary" />
               <div>
                 <p className="font-semibold">Phone</p>
-                <p className="text-gray-600">+1 (234) 567-890</p>
+                <p className="text-gray-600">+1 (416) 540-0183</p>
               </div>
             </a>
-            <a
+            {/* <a
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,10 +40,13 @@ export const Contact = () => {
                 <p className="font-semibold">LinkedIn</p>
                 <p className="text-gray-600">Connect with me on LinkedIn</p>
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
     </section>
   );
+
+
+
 };

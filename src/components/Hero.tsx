@@ -6,14 +6,14 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-black/20" />
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Acme Salesforce Solutions
+          Krystal Solutions
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-100">
           Empowering Businesses with Tailored Salesforce Solutions
         </p>
         <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto text-gray-200">
-          Expert Salesforce consulting to help your business leverage the full power
-          of the world's #1 CRM platform.
+          Expert Salesforce consulting to help your business leverage the full
+          power of the world's #1 CRM platform.
         </p>
         <a
           href="#contact"
@@ -25,4 +25,6 @@ export const Hero = () => {
       </div>
     </div>
   );
+
+
 };

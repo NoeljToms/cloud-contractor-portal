@@ -17,8 +17,7 @@ const services = [
   {
     icon: Code2,
     title: "Customization",
-    description:
-      "Custom development of apps, automations, and integrations",
+    description: "Custom development of apps, automations, and integrations",
   },
   {
     icon: Settings,
@@ -26,23 +25,21 @@ const services = [
     description:
       "Seamless integration with your existing systems and third-party apps",
   },
-  {
-    icon: GraduationCap,
-    title: "Training",
-    description:
-      "Comprehensive training programs for your team",
-  },
+  // {
+  //   icon: GraduationCap,
+  //   title: "Training",
+  //   description:
+  //     "Comprehensive training programs for your team",
+  // },
   {
     icon: LineChart,
     title: "Analytics",
-    description:
-      "Advanced reporting and analytics solutions",
+    description: "Advanced reporting and analytics solutions",
   },
   {
     icon: Zap,
     title: "Optimization",
-    description:
-      "Performance optimization and system health checks",
+    description: "Performance optimization and system health checks",
   },
 ];
 
@@ -68,4 +65,5 @@ export const Services = () => {
       </div>
     </section>
   );
+
 };
